@@ -30,4 +30,6 @@ def add(a, b):
 
 
 if __name__ == '__main__':
-    greet('Alice')
+    # greet('Alice')
+
+    print(add(2, b=3))
