@@ -12,4 +12,5 @@ def simple_decorator(func):
 def say_hello():
     print("Hello")
 
-
+if __name__ == '__main__':
+    say_hello()
