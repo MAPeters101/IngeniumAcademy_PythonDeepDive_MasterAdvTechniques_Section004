@@ -7,3 +7,7 @@ class CountCalls:
         self.num_calls += 1
         print(f"This function has been called {self.num_calls} times")
         return self.func(*args, **kwargs)
+
+@CountCalls
+def say_hi():
+    print("Hi")
