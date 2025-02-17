@@ -35,6 +35,7 @@ class Sunrise:
         self.sunrise_hour = hour  # Will create instance attribute but will not change class attribute
 
 
+
 if __name__ == '__main__':
     c = Celsius(25)
     c.temperature = 30
