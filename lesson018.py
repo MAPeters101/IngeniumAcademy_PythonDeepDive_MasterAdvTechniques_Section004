@@ -10,7 +10,9 @@ def repeat(num):
     return decorator_repeat
 
 @repeat(num=3)
-def great(name):
+def greet(name):
     print(f"Hello {name}")
 
 
+if __name__ == '__main__':
+    greet('Alice')
