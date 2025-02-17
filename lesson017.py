@@ -41,10 +41,18 @@ if __name__ == '__main__':
     # c.temperature = 30
     # print(c.temperature)
 
-    s = Sunrise()
     print(Sunrise.sunrise_hour)
     Sunrise.set_sunrise_class_method(6)
     print(Sunrise.sunrise_hour)
+
+    print('-'*10)
+
+    s = Sunrise()
+    s.set_sunrise_class_method(10)
+    s.set_sunrise(7)
+
+    print("Instance sunrise hour:", s.sunrise_hour)
+    print("Class sunrise hour:", Sunrise.sunrise_hour)
 
 
 
