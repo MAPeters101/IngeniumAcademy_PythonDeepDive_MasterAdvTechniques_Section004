@@ -7,3 +7,9 @@ def simple_decorator(func):
         print("Something is happening after the function is called.")
 
     return wrapper
+
+@simple_decorator
+def say_hello():
+    print("Hello")
+
+
