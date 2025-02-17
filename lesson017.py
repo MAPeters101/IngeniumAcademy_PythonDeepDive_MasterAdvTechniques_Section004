@@ -37,6 +37,15 @@ class Sunrise:
 
 
 if __name__ == '__main__':
-    c = Celsius(25)
-    c.temperature = 30
-    print(c.temperature)
+    # c = Celsius(25)
+    # c.temperature = 30
+    # print(c.temperature)
+
+    s = Sunrise()
+    print(Sunrise.sunrise_hour)
+    Sunrise.set_sunrise_class_method(6)
+    print(Sunrise.sunrise_hour)
+
+
+
+
