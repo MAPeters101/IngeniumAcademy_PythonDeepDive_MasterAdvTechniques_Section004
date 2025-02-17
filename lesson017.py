@@ -16,3 +16,9 @@ class Celsius:
         print("Setting temperature")
         self._temperature = value
 
+
+
+if __name__ == '__main__':
+    c = Celsius(25)
+    c.temperature = 30
+    print(c.temperature)
